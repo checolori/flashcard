@@ -1,6 +1,14 @@
-function changeText() {
-document.getElementById('boldStuff').innerHTML = 'The DOM is ';
+  function changeText() {
+ document.getElementById('boldStuff').innerHTML = 'The DOM is ';
 }
+
+
+function seeCard() {
+    
+}
+
+const card = document.getElementById.whatAnswer(0)
+
 
 //document.getElementById("myBtn").addEventListener("click", function changeColor() {
 //  document.body.style.color = "purple";

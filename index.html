@@ -3,15 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>FlashCard</title>
+  <link rel="stylesheet" type="text/css"  href="style/style.css" />
   <script src="script/script.js"></script>
  </head>
 <body>
     <h1>Welcome to the Flashcard app!</h1>
+<h1 id='boldStuff'>What is the DOM</h1> 
+
+<button onclick='seeCard()'>Hit me!</button>
+
+<div class="card">
+    <div class="card" onmousemove='whatAnswer(0)' onmouseout='whatQuestion(0)'>
+        <p card="question">Q: What </p>
+        <p card="answer">lorem ipsum</p>
+    </div>
+</div>
 
 
-    
- <h1 id='boldStuff'>What is the DOM</h1> 
-<input type='button' onclick='changeText()' value='Change Text'/>
+
 
 </body>
 </html>
