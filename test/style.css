@@ -1,0 +1,29 @@
+body{
+    font-family: Sunflower;
+    font-size: 30px;
+}
+
+
+.flashcard{
+    background-color: #c6eaaa;
+    background-repeat: no-repeat;
+    padding: 45px;
+    border-radius: 10px;
+        margin: 0 auto;
+        max-width: 460px;
+        padding: 30px;
+        text-align: left;
+    text-align: center;
+    height: 100px;
+}
+
+.nextButton{
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+  text-align: center;
+  
+}
